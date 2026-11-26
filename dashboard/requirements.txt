@@ -1,0 +1,10 @@
+# Dependencias del tablero (Dash). numpy, pandas, scikit-learn, xgboost y joblib en las mismas versiones con que
+# se guardó el modelo. Para publicarlo en la web basta con este archivo; no hace falta torch ni Quarto.
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+xgboost==3.4.1
+joblib==1.6.0
+dash==4.5.1
+plotly==7.2.0
+gunicorn==23.0.0

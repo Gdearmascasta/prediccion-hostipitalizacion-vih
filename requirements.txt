@@ -1,0 +1,11 @@
+# Dependencias del despliegue en Vercel (función Python api/index.py, que sirve el tablero de dashboard/).
+# Mismas versiones con que se guardó el modelo; xgboost-cpu es el mismo paquete xgboost 3.4.1 sin las librerías
+# de GPU, para que la función quepa en el límite de tamaño de Vercel.
+# Para generar el artículo use requirements-articulo.txt; para correr el tablero en local, dashboard/requirements.txt.
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+xgboost-cpu==3.4.1
+joblib==1.6.0
+dash==4.5.1
+plotly==7.2.0

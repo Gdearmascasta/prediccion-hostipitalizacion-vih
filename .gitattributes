@@ -1,0 +1,17 @@
+# Texto con fin de línea LF en el repositorio
+* text=auto
+*.qmd text eol=lf
+*.py  text eol=lf
+*.bib text eol=lf
+*.csl text eol=lf
+*.md  text eol=lf
+*.csv text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# Binarios
+*.gz     binary
+*.joblib binary
+*.pdf    binary
+*.png    binary

@@ -1,0 +1,28 @@
+# Entorno con el que se generó articulo_ML_Agamez_final.pdf y modelo_hospitalizacion_vih.joblib
+# Python 3.12.10 · Quarto 1.10.18 (con xelatex, p. ej. TinyTeX)
+#
+# Instalación:  pip install -r requirements.txt
+# La línea siguiente hace que torch se instale en su versión solo CPU (evita descargar CUDA en Linux).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Análisis y modelos
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.0
+xgboost==3.4.1
+torch==2.15.0
+matplotlib==3.11.1
+joblib==1.6.0
+tabulate==0.10.0          # DataFrame.to_markdown, usado por las tablas del artículo
+
+# Ejecución de los bloques de Python desde Quarto
+ipykernel==7.3.0
+jupyter-client==8.10.0
+jupyter-core==5.9.1
+nbformat==5.11.1
+nbclient==0.11.0
+pyyaml==6.0.3
+
+# Servicio web del modelo (app.py)
+flask==3.1.3

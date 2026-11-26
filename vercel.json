@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 30,
+      "memory": 1024,
+      "excludeFiles": "{.venv/**,odd/**,**/__pycache__/**,articulo_ML_Agamez_final.*,referencias.bib,apa.csl,requirements-articulo.txt}"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}

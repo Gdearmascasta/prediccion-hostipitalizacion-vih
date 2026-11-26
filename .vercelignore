@@ -1,0 +1,13 @@
+# Lo que no necesita la función del tablero en Vercel
+.venv/
+__pycache__/
+*.pyc
+odd/
+.atl/
+articulo_ML_Agamez_final.qmd
+articulo_ML_Agamez_final.pdf
+articulo_ML_Agamez_final.quarto_ipynb
+referencias.bib
+apa.csl
+requirements-articulo.txt
+dashboard/requirements.txt
